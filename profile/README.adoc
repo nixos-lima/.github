@@ -1,3 +1,5 @@
-= NixOS-Lima
+Welcome to the NixOS Lima project. This project/organization is an attempt to create and maintain Nix-based resources for installing and running NixOS VMs with https://lima-vm.io[Lima].
 
-Welcome to the NixOS Lima project.
+https://github.com/nixos-lima/nixos-lima[nixos-lima] is the main repo and contains a NixOS Generator that can build a NixOS system image compatible with Lima. It also includes a Nix Flake that installs services into the guest VM to configure and run the VM in a Lima-compatible manner. 
+
+https://github.com/nixos-lima/nixos-lima-config-sample[nixos-lima-config-sample] provides a sample that demonstrates how a NixOS VM can be configured using the Flake from https://github.com/nixos-lima/nixos-lima[nixos-lima].
